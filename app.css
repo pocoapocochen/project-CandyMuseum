@@ -1,0 +1,47 @@
+/*
+Coded by Chen Yu-jie by the tutorials of 'The Bootstrap 4 Bootcamp' course on Udemy
+https://www.udemy.com/bootstrap-4-bootcamp/
+*/
+
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar, #header h1, .introtext h2, .introtext p {
+    font-weight: 100;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-brand, #mainNavbar .nav-link:hover, #header span, .introtext h2 {
+    color: #ea1c2c;
+}
+
+#mainNavbar .nav-link {
+    color: #ffffff;
+}
+
+#header h1, .introtext h2 {
+    font-size: 2rem;
+}
+
+.introtext p {
+    color: #f498b8;
+    font-size: 1.125rem;
+    line-height: 2;
+
+}
+
+#mainNavbar.scrolled {
+    background: #dec0de;
+    transition: background 0.5s;
+}
+
+@media (min-width: 780px){
+    #header h1 {
+        font-size: 3rem;
+    }
+}
